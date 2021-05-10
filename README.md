@@ -1,5 +1,5 @@
 # graph1
-code that goes with paper: how language could have evolved
+code that goes with the paper: https://github.com/kwd2/graph1/blob/main/how_language_could_have_evolved.pdf
 
 Table of Contents
 -----------------------------------

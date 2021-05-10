@@ -40,5 +40,5 @@ variables                                     - stm binding
 
 adjective ordering
 
-the / a / my / get
+the / a / my / get 
 

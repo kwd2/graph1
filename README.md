@@ -1,12 +1,12 @@
 # graph1
-code that goes with the paper: https://github.com/kwd2/graph1/blob/main/how_language_could_have_evolved.pdf
+code that goes with the paper: [how language could have evolved](https://github.com/kwd2/graph1/blob/main/how_language_could_have_evolved.pdf)
 
 Table of Contents
 -----------------------------------
 
-* short term memory, (stm)		- create new (stm) nodes via merge()
-* (stm) sequence recall			- hiker rock duck sneeze
-* movement                                - value based branching
+* short term memory, (stm)  - - - - - - - create new (stm) nodes via merge()
+* (stm) sequence recall	- - - - - - - - - hiker rock duck sneeze
+* movement                              - value based branching during 
 * a-n bifurcation		                - now I eat here daily
 * conjunction                             - closed loop hebbian binding
 * movement+conjunction

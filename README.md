@@ -1,6 +1,8 @@
 # graph1
 code that goes with the paper: [how language could have evolved](https://github.com/kwd2/graph1/blob/main/how_language_could_have_evolved.pdf)
 
+ealier version of this documentation: [google docs bica code](https://docs.google.com/document/d/1CxnVuSqjkilYbdJG4flKVL_NAbCwRZlVtv1cmskbbVY/edit?usp=sharing)
+
 Table of Contents
 -----------------------------------
 
@@ -34,7 +36,45 @@ Table of Contents
 * the / a / my / get 
 
 
-![Screenshot from 2021-05-10 14-14-56](https://user-images.githubusercontent.com/15908030/117712622-2d6b0380-b19a-11eb-9c31-c85e2beffbf2.png)
+----------------------------------------------------------------------------------
+short term memory, (stm): 
+
+
+
+![Screenshot from 2021-05-10 15-30-04](https://user-images.githubusercontent.com/15908030/117720713-a0797780-b1a4-11eb-9512-258ef14f2925.png)
+
+
+code output:
+
+![Screenshot from 2021-05-10 15-28-47](https://user-images.githubusercontent.com/15908030/117720644-88a1f380-b1a4-11eb-9ad8-994578e57d8c.png)
+
+
+add the third and fourth symbols 'duck' and 'sneeze'
+
+![Screenshot from 2021-05-10 15-44-48](https://user-images.githubusercontent.com/15908030/117722472-b851fb00-b1a6-11eb-9757-6d7ebe0cb31f.png)
+
+
+
+![image](https://user-images.githubusercontent.com/15908030/117725528-df123080-b1aa-11eb-8d27-4e6d9a8fd99c.png)
+
+
+----------------------------------------------------------------------------------
+(stm) sequence recall
+
+input 'boy eats thing'
+
+![Screenshot from 2021-05-10 16-20-20](https://user-images.githubusercontent.com/15908030/117726138-c5251d80-b1ab-11eb-997e-dd1cd2c5f06d.png)
+
+![Screenshot from 2021-05-10 16-20-39](https://user-images.githubusercontent.com/15908030/117726194-d8d08400-b1ab-11eb-92bd-c19d575e8e57.png)
+
+
+
+
+
+
+
+
+
 
 
 

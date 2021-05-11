@@ -96,6 +96,7 @@ this produces the output "what boys eat", where "thing:0" below is defined to be
 
 This mechanism is motivated from, and compares to,  the Minimalist model of movement from Linguistics  ![Screenshot from 2021-05-10 19-45-34](https://user-images.githubusercontent.com/15908030/117741536-599d7900-b1c8-11eb-97d0-62e139fd23ee.png)
 
+----------------------------------------------------------------------------------
 * a-n bifurcation- - - - - - - - - - - - - now I eat here daily
 
 
@@ -112,18 +113,20 @@ the value of the a and n  nodes is used to indicate the question form of each hy
 
 
 I eat here:
+
 ![Screenshot from 2021-05-11 17-27-13](https://user-images.githubusercontent.com/15908030/117892333-2b7a7080-b27e-11eb-85b3-63b495ffa12c.png)
 
 
 
 
 
-
+----------------------------------------------------------------------------------
 * conjunction                             - closed loop hebbian binding
+----------------------------------------------------------------------------------
 * movement+conjunction
-
+----------------------------------------------------------------------------------
 * long term memory  [ltm]                 - reverse merge
-
+----------------------------------------------------------------------------------
 * verbs                                   -  +1 (stm) loop
 * prepositions                            -  +2 (stm) loops
 

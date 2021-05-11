@@ -87,7 +87,8 @@ this produces the output "what boys eat", where "thing:0" below is defined to be
 ![Screenshot from 2021-05-10 16-49-03](https://user-images.githubusercontent.com/15908030/117740665-881a5480-b1c6-11eb-8a8a-8170bc3936fc.png)
 
 
-The above mechanism for movement can be compared to the Minimalist model of movement from Linguistics  ![Screenshot from 2021-05-10 19-38-03](https://user-images.githubusercontent.com/15908030/117741302-be0c0880-b1c7-11eb-9b45-98f73bd6c313.png)
+This mechanism is motivated from, and compares to,  the Minimalist model of movement from Linguistics  ![Screenshot from 2021-05-10 19-45-34](https://user-images.githubusercontent.com/15908030/117741536-599d7900-b1c8-11eb-97d0-62e139fd23ee.png)
+
 
 
 

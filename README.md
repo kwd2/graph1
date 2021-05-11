@@ -84,6 +84,7 @@ The input value of 0 propagates to the (b_e_t) node.   This information can be u
 this produces the output "what boys eat", where "thing:0" below is defined to be "what"
 
 
+![Screenshot from 2021-05-10 16-49-03](https://user-images.githubusercontent.com/15908030/117740665-881a5480-b1c6-11eb-8a8a-8170bc3936fc.png)
 
 
 

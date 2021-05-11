@@ -37,6 +37,13 @@ Table of Contents
 
 
 ----------------------------------------------------------------------------------
+the c++ file graph1.cpp contains a single class that implements the graph node.   The main() routine has the form:
+![Screenshot from 2021-05-10 20-25-35](https://user-images.githubusercontent.com/15908030/117744407-3aa1e580-b1ce-11eb-956e-11e00a24038e.png)
+
+The Graph class is modified as the sequence of main1(), main2() ,main3(), ...  routines are added 
+
+
+----------------------------------------------------------------------------------
  * short term memory, (stm): 
 
 

@@ -8,8 +8,8 @@ Table of Contents
 
 * short term memory, (stm)  - - - - - - - create new (stm) nodes via merge()
 * (stm) sequence recall	- - - - - - - - - hiker rock duck sneeze
-* movement- - - - - - - - - - - - - - - - value based branching during 
-* a-n bifurcation		                - now I eat here daily
+* movement - - - - - - - - - - - - - - - - value based branching during (stm) sequence recall
+* a-n bifurcation- - - - - - - - - - - - - now I eat here daily
 * conjunction                             - closed loop hebbian binding
 * movement+conjunction
 
@@ -86,6 +86,8 @@ this produces the output "what boys eat", where "thing:0" below is defined to be
 
 ![Screenshot from 2021-05-10 16-49-03](https://user-images.githubusercontent.com/15908030/117740665-881a5480-b1c6-11eb-8a8a-8170bc3936fc.png)
 
+
+The above mechanism for movement can be compared to the Minimalist model of movement from Linguistics  ![Screenshot from 2021-05-10 19-38-03](https://user-images.githubusercontent.com/15908030/117741302-be0c0880-b1c7-11eb-9b45-98f73bd6c313.png)
 
 
 

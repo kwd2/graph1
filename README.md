@@ -122,10 +122,28 @@ I eat here:
 
 ----------------------------------------------------------------------------------
 * conjunction                             - closed loop hebbian binding
+
+![Screenshot from 2021-05-12 09-14-52](https://user-images.githubusercontent.com/15908030/117990311-aa18f180-b302-11eb-94c9-87bf3ecc9025.png)
+
+
+![Screenshot from 2021-05-12 09-28-53](https://user-images.githubusercontent.com/15908030/117992394-83f45100-b304-11eb-9494-de3a3f55f019.png)
+
+
+
+
 ----------------------------------------------------------------------------------
 * movement+conjunction
+
+![Screenshot from 2021-05-12 09-39-30](https://user-images.githubusercontent.com/15908030/117994206-fca7dd00-b305-11eb-8f50-44108289bcee.png)
+
+
+
 ----------------------------------------------------------------------------------
 * long term memory  [ltm]                 - reverse merge
+
+![Screenshot from 2021-05-12 09-40-25](https://user-images.githubusercontent.com/15908030/117994374-1b0dd880-b306-11eb-9d11-a95151aafe8c.png)
+
+
 ----------------------------------------------------------------------------------
 * verbs                                   -  +1 (stm) loop
 * prepositions                            -  +2 (stm) loops

@@ -51,7 +51,9 @@ The Graph class is modified as the sequence of main1(), main2() ,main3(), ...  r
 ![Screenshot from 2021-05-10 15-30-04](https://user-images.githubusercontent.com/15908030/117720713-a0797780-b1a4-11eb-9512-258ef14f2925.png)
 
 
-code output:
+code output:   
+
+(blocks of text with no arrows are static diagrams of the IP graph.   The blocks of text with arrows show the order of node firing when a graph node is externally fired (touched from main) )
 
 ![Screenshot from 2021-05-10 15-28-47](https://user-images.githubusercontent.com/15908030/117720644-88a1f380-b1a4-11eb-9ad8-994578e57d8c.png)
 

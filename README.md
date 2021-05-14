@@ -131,6 +131,11 @@ I eat here:
 ![Screenshot from 2021-05-12 09-28-53](https://user-images.githubusercontent.com/15908030/117992394-83f45100-b304-11eb-9494-de3a3f55f019.png)
 
 
+illicit conjuntion combinations
+
+![Screenshot from 2021-05-14 14-26-21](https://user-images.githubusercontent.com/15908030/118319453-6b309a80-b4c0-11eb-876f-262ca80c43b1.png)
+
+
 
 
 ----------------------------------------------------------------------------------

@@ -128,7 +128,8 @@ I eat here:
 
 + illicit conjuntion combinations
 
-![Screenshot from 2021-05-15 11-58-34](https://user-images.githubusercontent.com/15908030/118372014-eb183c80-b574-11eb-8e89-d46c8e197acf.png)
+![Screenshot from 2021-05-15 18-26-10](https://user-images.githubusercontent.com/15908030/118380886-187fdd00-b5ab-11eb-9853-8298bdd0697a.png)
+
 
 old notation
 

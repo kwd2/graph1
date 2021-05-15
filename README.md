@@ -125,17 +125,14 @@ I eat here:
 ----------------------------------------------------------------------------------
 * conjunction                             - closed loop hebbian binding
 
-![Screenshot from 2021-05-12 09-14-52](https://user-images.githubusercontent.com/15908030/117990311-aa18f180-b302-11eb-94c9-87bf3ecc9025.png)
 
-
-![Screenshot from 2021-05-12 09-28-53](https://user-images.githubusercontent.com/15908030/117992394-83f45100-b304-11eb-9494-de3a3f55f019.png)
-
-
-illicit conjuntion combinations
++ illicit conjuntion combinations
 
 ![Screenshot from 2021-05-15 11-58-34](https://user-images.githubusercontent.com/15908030/118372014-eb183c80-b574-11eb-8e89-d46c8e197acf.png)
 
+old notation
 
+![Screenshot from 2021-05-12 09-28-53](https://user-images.githubusercontent.com/15908030/118379337-48c17e80-b59f-11eb-87a4-bf0e4c340753.png)
 
 
 

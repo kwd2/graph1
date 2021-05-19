@@ -131,9 +131,11 @@ I eat here:
 ![Screenshot from 2021-05-15 18-26-10](https://user-images.githubusercontent.com/15908030/118380886-187fdd00-b5ab-11eb-9853-8298bdd0697a.png)
 
 
-old notation
+space and time
 
-![Screenshot from 2021-05-12 09-28-53](https://user-images.githubusercontent.com/15908030/118379337-48c17e80-b59f-11eb-87a4-bf0e4c340753.png)
+![Screenshot from 2021-05-18 20-02-32](https://user-images.githubusercontent.com/15908030/118741583-2ab08400-b814-11eb-89c8-2c8c0d772c8a.png)
+
+![Screenshot from 2021-05-18 20-03-06](https://user-images.githubusercontent.com/15908030/118741598-3308bf00-b814-11eb-8ded-a51861b55fdd.png)
 
 
 

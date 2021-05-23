@@ -140,7 +140,7 @@ space and time
 
 
 ----------------------------------------------------------------------------------
-* movement+conjunction
+* movement of a conjunction
 
 ![Screenshot from 2021-05-12 09-39-30](https://user-images.githubusercontent.com/15908030/117994206-fca7dd00-b305-11eb-8f50-44108289bcee.png)
 

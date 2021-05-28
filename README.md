@@ -137,6 +137,17 @@ space and time
 
 ![Screenshot from 2021-05-18 20-03-06](https://user-images.githubusercontent.com/15908030/118741598-3308bf00-b814-11eb-8ded-a51861b55fdd.png)
 
+input "I am here and now"
+
+![Screenshot from 2021-05-28 13-15-45](https://user-images.githubusercontent.com/15908030/120029584-ea8f9500-bfbb-11eb-9d89-155772a7010e.png)
+
+![Screenshot from 2021-05-28 13-16-05](https://user-images.githubusercontent.com/15908030/120029614-f1b6a300-bfbb-11eb-9a6f-cbdcb65475f5.png)
+
+![Screenshot from 2021-05-28 13-16-25](https://user-images.githubusercontent.com/15908030/120029622-f5e2c080-bfbb-11eb-98b6-246e3ff52e3e.png)
+
+![Screenshot from 2021-05-28 13-16-45](https://user-images.githubusercontent.com/15908030/120029633-fa0ede00-bfbb-11eb-8582-2a62e175e845.png)
+
+![Screenshot from 2021-05-28 13-17-20](https://user-images.githubusercontent.com/15908030/120029646-fe3afb80-bfbb-11eb-92b5-92bd490fe3f8.png)
 
 
 ----------------------------------------------------------------------------------

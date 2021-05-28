@@ -125,17 +125,8 @@ I eat here:
 ----------------------------------------------------------------------------------
 * conjunction                             - closed loop hebbian binding
 
-
-+ illicit conjuntion combinations
-
 ![Screenshot from 2021-05-15 18-26-10](https://user-images.githubusercontent.com/15908030/118380886-187fdd00-b5ab-11eb-9853-8298bdd0697a.png)
 
-
-space and time
-
-![Screenshot from 2021-05-18 20-02-32](https://user-images.githubusercontent.com/15908030/118741583-2ab08400-b814-11eb-89c8-2c8c0d772c8a.png)
-
-![Screenshot from 2021-05-18 20-03-06](https://user-images.githubusercontent.com/15908030/118741598-3308bf00-b814-11eb-8ded-a51861b55fdd.png)
 
 input "I am here and now"
 
@@ -148,6 +139,12 @@ input "I am here and now"
 ![Screenshot from 2021-05-28 13-16-45](https://user-images.githubusercontent.com/15908030/120029633-fa0ede00-bfbb-11eb-8582-2a62e175e845.png)
 
 ![Screenshot from 2021-05-28 13-17-20](https://user-images.githubusercontent.com/15908030/120029646-fe3afb80-bfbb-11eb-92b5-92bd490fe3f8.png)
+
+---------------------------------------------------------------------------------
+
++ illicit conjuntion combinations
+
+
 
 
 ----------------------------------------------------------------------------------

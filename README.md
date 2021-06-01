@@ -167,21 +167,30 @@ input "I am here and now"
 ![Screenshot from 2021-06-01 08-08-23](https://user-images.githubusercontent.com/15908030/120328622-9d0f7280-c2b0-11eb-9192-db1d648b449b.png)
 
 
+![Screenshot from 2021-06-01 11-22-06](https://user-images.githubusercontent.com/15908030/120358035-b1149d80-c2cb-11eb-9b71-ebce993b40e4.png)
 
 
-
+----------------------------------------------------------------------------------
 
 * past   tense  [vp]-1                        - value based branching on -1
 * future tense  [vp]+1                       - value based branching on +1
 
+----------------------------------------------------------------------------------
+
 * progressive   [nvp]-1                      - double (stm) loop,
 * perfected       [nvp]+1                     - double (stm) loop
 
+----------------------------------------------------------------------------------
+
 * singular        [noun]-1   	     - number agreement
 * plural            [noun]+1                   - plural “s” word ending
+----------------------------------------------------------------------------------
 
 * stm overlay  mechanism              - return false when building (stm)
+
 * triggering stored sequences
+----------------------------------------------------------------------------------
+
 * analogies			     -  understand - recall and overlay entire [ltm] sequence 
 				                        on (stm) without a FALS
 * variables                                     - stm binding

@@ -164,6 +164,13 @@ input "I am here and now"
 * verbs                                   -  +1 (stm) loop
 * prepositions                            -  +2 (stm) loops
 
+![Screenshot from 2021-06-01 08-08-23](https://user-images.githubusercontent.com/15908030/120328622-9d0f7280-c2b0-11eb-9192-db1d648b449b.png)
+
+
+
+
+
+
 * past   tense  [vp]-1                        - value based branching on -1
 * future tense  [vp]+1                       - value based branching on +1
 

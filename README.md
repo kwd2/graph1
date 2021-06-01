@@ -172,8 +172,12 @@ input "I am here and now"
 
 ----------------------------------------------------------------------------------
 
-* past   tense  [vp]-1                        - value based branching on -1
-* future tense  [vp]+1                       - value based branching on +1
+* past   tense  [vp] = -1                        - value based branching on -1
+* irregular past tense verbs                     - frame node [ltm] value based branching   
+
+![Screenshot from 2021-06-01 17-58-50](https://user-images.githubusercontent.com/15908030/120400254-22237780-c303-11eb-91a8-db4d3509eeef.png)
+
+* future tense  [vp] = +1                       - value based branching on +1
 
 ----------------------------------------------------------------------------------
 
@@ -192,7 +196,7 @@ input "I am here and now"
 ----------------------------------------------------------------------------------
 
 * analogies			     -  understand - recall and overlay entire [ltm] sequence 
-				                        on (stm) without a FALS
+				                        on (stm) without a FALSE
 * variables                                     - stm binding
 * adjective ordering
 * the / a / my / get 

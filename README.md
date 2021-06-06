@@ -184,10 +184,18 @@ input "I am here and now"
 * progressive   [nvp]-1                      - double (stm) loop,
 * perfected       [nvp]+1                     - double (stm) loop
 
+![Screenshot from 2021-06-06 11-26-06](https://user-images.githubusercontent.com/15908030/120932102-1bf21a00-c6ba-11eb-9424-616bdd14b3d1.png)
+
+
 ----------------------------------------------------------------------------------
 
 * singular        [noun]-1   	     - number agreement
 * plural            [noun]+1                   - plural “s” word ending
+
+![Screenshot from 2021-06-06 11-27-27](https://user-images.githubusercontent.com/15908030/120932144-49d75e80-c6ba-11eb-9cc0-0c13850e16aa.png)
+
+
+
 ----------------------------------------------------------------------------------
 
 * stm overlay  mechanism              - return false when building (stm)

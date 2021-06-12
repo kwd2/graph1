@@ -24,7 +24,7 @@ public:
  
   int      output_flag;                         // for output formatting
   
-  list<Node*>                touches;            // child nodes that touched this node
+  list<Node*>                touches;            // child nodes that touched this node // depreciated
   list< pair<Node*,int> >    touches1;           // child nodes that touched this node
 
   Node*    last_stm;                             // last stm node this node is head of
@@ -53,7 +53,7 @@ public:
     value           =0;
     input_value     =40;
     threshold       =50;
-    time            =-10;
+    //time            =-10;
     last_stm        =NULL;
     //threshold_merge =1;     
     head=pair<Node*,int>(this,0);
@@ -71,7 +71,7 @@ public:
   Node(string sym, Node* head1) {                     // string + Node* constructor for IP branches
     initialize();
     symbol=sym;   
-    head=pair<Node*,int>(head1,50);
+    head=pair<Node*,int>(head1,55);
     copy=pair<Node*,int>(head1,10);
 
     head1->branches.push_back(pair<Node*,int>(this,1));
@@ -100,6 +100,7 @@ delete_link( Node* node, Node* target){
 	return 1;
       }
     }
+    return 1;
 }
 
 //----------------------------------------
@@ -139,6 +140,7 @@ Node::clear_touches(int depth ){
 
     b->first->clear_touches(depth-1);
   }  
+  return 1;
 }
 
 
@@ -159,7 +161,7 @@ Node::output_flag_clear(int depth ){
 
   }
 
-  
+  return 1;  
 }
 
 
@@ -174,10 +176,10 @@ Node::output(int depth, int tabs){
   output_flag=1;
   //output_flag=0;   // full printout
   
-  //cout<<symbol<<"\t";
+  cout<<symbol<<"\t";
   //cout<<threshold<<":"<<symbol<<"\t";
   //cout<<threshold<<":"<<head.second<<":"<<copy.second<<symbol<<"\t";
-  cout<<value<<":"<<symbol<<"\t";
+  //cout<<value<<":"<<symbol<<"\t";
 
 
 
@@ -208,7 +210,8 @@ Node::output(int depth, int tabs){
 
       if (b->first->output_flag==0) {
       
-	if (b->first->head.first == this){
+	//if (b->first->head.first == this){
+	if (b->first->head.first == this || b->first->copy.first != this){
 
 	  if (b==branches_s.begin() && b->first->symbol.find("(") !=0) {first_flag=0;cout<<endl;}
 	  if (b!=branches_s.begin() && first_flag==0 ) {cout<<endl;}
@@ -244,6 +247,8 @@ Node::output(int depth, int tabs){
   }     // depth
 
   if (tabs==0) cout<<endl<<"-------------------------------------------------------------"<<endl<<endl;  //output formating
+
+  return 1;
 };
 
 
@@ -438,7 +443,8 @@ Node::Node(Node* n1,  Node* n2)                               // merge construct
    //input_value     =5;
   input_value     =40;
 
-   threshold =  40;
+  //threshold =  40;
+   threshold =  10;
 
    //time      =  gtime;
 
@@ -459,7 +465,10 @@ Node::Node(Node* n1,  Node* n2)                               // merge construct
 		      
   if ( n2->last_stm!=NULL ){
     copy_link.first = n2->last_stm;
-    copy_link.second = 10;           	     
+    copy_link.second = 10;
+
+    n2->last_stm->head.first = this;
+    
   }
 			
    head = head_link;
@@ -469,7 +478,12 @@ Node::Node(Node* n1,  Node* n2)                               // merge construct
    copy_link.first  = this;
 
    head.first->branches.push_front( copy_link );                  //
-   copy.first->branches.push_front( head_link );
+
+   //copy.first->branches.push_front( head_link );
+ 
+   if (n2->last_stm==NULL) copy.first->branches.push_front( head_link );
+
+   if (n2->last_stm!=NULL) n2->branches.push_front( head_link );
 
    
  };
@@ -480,22 +494,20 @@ Node::Node(Node* n1,  Node* n2)                               // merge construct
 
 
 int
-Node::touch1( int     input           ,
-	      float   touch_value     ,
-	      Node*   touched_by      ,
+Node::touch1( int            input,
+	      float          touch_value,
+	      Node*          touched_by,
 	      list<Node*>*   node_string,
-	      int     unused,
-	      int     output_level    ,
-	      int     tabs            ,
-	      int     depth           )
+	      int            unused,
+	      int            output_level,
+	      int            tabs,
+	      int            depth )
 {
   
 
   int ret_val = 0;
 
-  //cout<<"here5"<<endl;
-    
-  if (unused==1){               // output mode from (stm) node,  
+  if (unused==1){               // output mode from (stm) node,  - no merges
 
     //----------- only allow each node to fire one time
 
@@ -503,35 +515,36 @@ Node::touch1( int     input           ,
 
      for ( ; ns!= node_string->end(); ns++){
 
-       if (*ns==this) return ret_val;
+       if (*ns==this){
+	 //cout<<"here2-"<<symbol<<(*ns)->symbol<<"-"<<node_string->size();
+	 if (output_level==0) cout<<"2";   // closed loop in hebb mode
+	 return 2;//ret_val;
+       }
      }   
 
-     if (head.first==this && copy.first==this) return ret_val;   // suppress printout of IP node
+     if (head.first==this && copy.first==this) {
+
+        
+       return 0;//ret_val;   // suppress printout of IP node
+     }
   }
 
-  
-  //cout<<"here6"<<endl;
-  
-  if (touched_by != NULL && output_level == -1 ) {      //output_level = direction, -1 = left
-
-    touches.push_back(touched_by); 
-  }
-
-  
-  //cout<<"touch      "<<symbol<< ":"<<input<<"."<<input_value<<"."<<threshold<<endl;
+   
+ 
   
   input_value  +=  abs(input);                      //  touch with new input
-
-  //cout<<"here7"<<endl;
+  
  
   if ( input_value  > threshold ){             // -------------------------  node fires
+ 
+ 
 
-    //cout<<"here8"<<endl;  
 
     //cout<<"touch fire "<<symbol<< ":"<<input<<"."<<input_value<<"."<<threshold<<endl;
     
     input_value = threshold/2 - 1;
-
+    //input_value = 0;
+    
     ret_val = 1;
 
     output_flag = 1;
@@ -540,23 +553,22 @@ Node::touch1( int     input           ,
     
     if (unused==0) value=touch_value;
 
+    if (output_level !=0){
     if (symbol!="IP") head.first->touches1.push_front(pair<Node*,int>(this,head.second));
 
-    if (symbol!="IP" )
-
-      { copy.first->touches1.push_front(pair<Node*,int>(this,copy.second)); }
-
-    //cout<<"here9"<<endl;  
-
+    if (symbol!="IP") copy.first->touches1.push_front(pair<Node*,int>(this,copy.second)); 
+    }
+ 
     // ---------------------------------------------------------------   output
-    if (output_level==1){
+    if (output_level==1 || output_level==0 ){   //right
 
-      for (int i=0; i!= tabs+1; i++) cout<<"\t";   cout<<"-->\t"<<symbol<<endl;
+      cout<<symbol;// <<" ";
+      //for (int i=0; i!= tabs+1; i++) cout<<"\t";   cout<<"-->\t"<<symbol<<endl;
       //for (int i=0; i!= tabs+1; i++) cout<<"\t";   cout<<"-->\t"<<symbol<<":"<<value  <<endl;
 
     }
-    //cout<<"here9"<<endl;  
-   if (output_level==-1){
+
+    if (output_level==-1){    // left
 
      for (int i=0; i!= tabs+1; i++) cout<<"\t";   cout<<"\t"<< symbol << "\t<--"<< endl;
      //for (int i=0; i!= tabs+1; i++) cout<<"\t";   cout<<"\t"<< symbol<<":"<<value << "\t<--"<< endl;
@@ -565,14 +577,14 @@ Node::touch1( int     input           ,
 
  
 
-   // ---------------------------------------------------------------   merge with touches
+   // ---------------------------------------------------------------   merge
 
      
-   if (   touched_by   !=  NULL
-	  && output_level ==  -1                        // direction = left (up the graph)
-	  && head.first   !=  touched_by                //
-	  && head.first == copy.first                                // - both nodes are surface  
-	  && touched_by->head.first == touched_by->copy.first        // - nodes
+   if (      touched_by   !=  NULL
+	  && output_level ==  -1                                // direction = left (up the graph)
+	  && head.first   !=  touched_by                        //
+	  && head.first   ==  copy.first                        // - both nodes are surface  
+	  && touched_by->head.first == touched_by->copy.first   // - nodes
 	  ) {
      
      //cout<<"touch merge1 "<<this->symbol<<"\t"<< touched_by->symbol<<endl;
@@ -581,74 +593,91 @@ Node::touch1( int     input           ,
 
        if (m!=NULL) last_stm=m;
        
-       if (m!=NULL) m->touch1( 100, touch_value, this, node_string, 0, 1, tabs+2, depth-1  ); 
+       if (m!=NULL) {
+	 
+	 list<Node*> node_string1;         // kludge to return (#hashtag)  node to main()
+     
+	 //list<Node*>::iterator n = node_string->begin();
+     
+	 //for (;n!=node_string->end();n++) node_string1.push_back(*n);
+	 
+	 for (int i=0; i!= tabs+2; i++) cout<<"\t";   cout<<"|"<<endl;
+	 for (int i=0; i!= tabs+2; i++) cout<<"\t"; 
+	 //m->touch1( 100, touch_value, this, node_string, 0, 1, tabs+2, depth-1  );    // merge touch
+	 int retval= m->touch1( 100, touch_value, this, &node_string1, 0, 1, tabs+2, depth-1  );    // merge touch
+	 cout<<endl;
 
-   }
+	 if (retval==1) {
+	   //cout<<node_string1.size();
+	   //node_string->push_back(m);
+
+	   list<Node*>::iterator n = node_string1.begin();
+	   
+	   for (;n!=node_string1.end();n++) node_string->push_back(*n);
+	 }
+       }
+       
+   }  // -----left
+
    
 
    if (head.first != this                                        // not the IP node
        && output_level==1 ){                                     //direction = right
-             
-     //cout<<"here"<<endl;
 
- 
-     //-------------------------------------------------------------------- merge with head node touches1 list
-     {
+     
+   //--------- switch directions    touch head  // hebb loop
+    
+   if (depth > 0 && head.first != this ){
+
+     list<Node*> node_string1;         // kludge to return (#hashtag)  node to main()
+     
+     list<Node*>::iterator n = node_string->begin();
+     
+     for (;n!=node_string->end();n++) node_string1.push_back(*n);
+
+     //cout<<"here0["<<symbol<<","<<head.first->symbol<<","<<copy.first->symbol<<"]";
+     
+     head.first->touch1( 8, value,  this,  &node_string1, 1, 0, tabs-2, depth  );
+     cout<<" ";
+
+   }
+
+
+
+     
+     //---------------- merge with head node touches1 list
 
      list< pair<Node*, int> >::iterator t = head.first->touches1.begin();
 
-
      for (;t!=head.first->touches1.end();t++){
-
-       //cout<< "touch merge with head "<<head.first->symbol<<"\t"<<t->first->symbol<<t->second<<"\t"<< this->symbol<<endl;
-	 
 
        if (t->first != this &&  t->second < 6 ){
 
 	 //cout<< "touch merge with head-"<<t->first->symbol<<t->second<<"\t"<< this->symbol<<endl;
 
-	 merge( t->first, this );
+	 Node* m = merge( t->first, this );
 	 
+	 if (m!=NULL && depth>0) m->touch1( 100, touch_value, this, node_string, 0, 1, tabs+2, depth-1  );
+	      
 	 break;                           // stop after first merge
        }       
     
      }
-     }
-     //-------------------------------------------------------------------- merge with head node touches1 list
-
-
+     //---------------- merge with head node touches1 list
      
-     list<Node*>::reverse_iterator t; 
-     t = copy.first->touches.rbegin();                                       // -----------------------    copy loop
+   }   //  ----right
 
-     for (; t!=copy.first->touches.rend();++t){
 
-       //cout<< "touch merge with copy "<<(*t)->symbol<<"\t"<< (*t)->threshold<<"\t"<<this->symbol<< endl;
-       
-       if ( (*t)->threshold > 60 ) {                                        // threshold to merge
+   // ---------------------------------------------------------------   merge
 
-	 //cout<< "touch merge with copy "<<(*t)->symbol<<"\t"<< this->symbol<<endl;
 
-	 merge( *t, this );
-	 
-	 break;                           // stop after first merge
-
-       }       
-     }
-
-   }
-   
-   // ---------------------------------------------------------------   merge with touches
-
-   //cout<<"here1"<<endl; 
    
 
    if (output_level==-1){                           // direction=left
 
    // -----------------------------------------------  touch head+copy
 
-     //cout<<"here2"<<endl;
-     
+      
      int flag=0;
 
      // --------------------------------------- movement code
@@ -657,10 +686,10 @@ Node::touch1( int     input           ,
      if (depth > 0   && copy.first != this
 	 && copy.first != head.first
 	 && copy.first->value==0
+	 && unused==1
 	 ){
 
-       //cout<<"here2a"<<endl;
-
+ 
        ret_val = copy.first->touch1( 100, touch_value,  this, node_string,  unused, -1, tabs-2, depth -1  );
 
        if (value==0 && touched_by!=NULL) return ret_val;
@@ -670,17 +699,17 @@ Node::touch1( int     input           ,
      // --------------------------------------- movement code
      
 
-     //cout<<"here3"<<endl;
+
      
      //--------- touch head
 
      if (depth > 0 && head.first != this
-	 //&& (unused==1 && head.first->head.first != head.first)              // no print IP node on output
 	 ){
 
        if ( !(unused==1 && head.first->head.first == head.first->copy.first ) )
 	 {
-	   ret_val = head.first->touch1( 40, touch_value,  this, node_string,  unused, -1, tabs-2, depth-1  );
+	   //ret_val = head.first->touch1( 40, touch_value,  this, node_string,  unused, -1, tabs-2, depth-1  );
+	   ret_val = head.first->touch1( input, touch_value,  this, node_string,  unused, -1, tabs-2, depth-1  );
 
 	   //cout<<"here3a"<<endl;
 
@@ -689,8 +718,7 @@ Node::touch1( int     input           ,
 	 }
      }
      
-     //cout<<"here4"<<endl;
-    
+     
      //--------- touch copy
 
      if (depth > 0   && copy.first != this
@@ -702,64 +730,66 @@ Node::touch1( int     input           ,
        flag += ret_val;
      }
      
-     //cout<<"here5\t"<<flag<<endl;
-    
+      
      if (flag>0) return ret_val;
      // -----------------------------------------------  touch head+copy
 
-   }  // ouput_level==-1   =left
+   }                                        // ouput_level==-1   =left
 
-
-   //cout<<"here2"<<endl;
-
-   if (output_level==1){             //--------------  direction = right
-     
-   //  -- both directions run this loop   
- 
-   //-------------------------- touch branches
-
-   if (depth > 0){
-
-     list< pair<Node*, int> >::iterator b = branches.begin();
-     
-     for ( ; b!= branches.end(); b++){
-
-       b->first->touch1( b->second, touch_value, this, node_string, 0, 1, tabs+2, depth-1  );
-
-       //cout<<"branches loop "<<symbol<<"  "<< b->first->symbol<<"  "<<endl;
-     }
- 
-   }
-   //-------------------------- touch branches
 
  
 
 
-
-   // -----------------------------------------------  touch head+copy
-   
-   //--------- touch head
-
+   if (output_level==0){             //------ hebb loop
     
-   if (depth > 0 && head.first != this ){
 
-     //cout<< head.first->symbol<<" -ht- "<< this->symbol<<" d= "<<depth<<endl;
+     //cout<<"here["<<head.first->symbol<<","<<copy.first->symbol<<"]";
+     
+     if ( head.first != this && touched_by != head.first ){
+       
+       int retval=  head.first->touch1( input, value,  this,  node_string, 1, 0, tabs-2, depth  );
+       //cout<<retval;
+       if (retval==1) return retval;
+     }
+
+     //cout<<"here["<<head.first->symbol<<","<<copy.first->symbol<<","<<"]";
+     if ( copy.first != this && touched_by != copy.first){
+       
+       int retval=  copy.first->touch1( input, value,  this,  node_string, 1, 0, tabs-2, depth  );
+
+       //cout<<"here["<<head.first->symbol<<","<<copy.first->symbol<<","<<","<<retval<<"]";
+       
+       if (retval==1) return retval;
+     }
+
+
+     if ( touched_by == head.first || touched_by == copy.first ) {
+
+ 	      
+     list<pair<Node*, int> >::iterator b = branches.begin();
+
+     for (; b!= branches.end(); b++){
+
+       if ( touched_by != b->first ){
 	 
-     //head.first->touch1( head.second, value,  this,  node_string, 0, -1, tabs-2, depth-1  );
-   }
+	 int retval=  b->first->touch1( input, value,  this,  node_string, 1, 0, tabs-2, depth  );
 
-   //--------- touch copy
+	 //cout<<"here["<<head.first->symbol<<","<<copy.first->symbol<<","<<b->first->symbol<<","<<retval<<"]";
 
-   //cout<< copy.first->symbol<<" -ct- "<< this->symbol<<" d= "<<depth<<endl;
-   
-    if (depth > 0   && copy.first != this ){
-      
-      copy.first->touch1( copy.second, value,  this,  node_string, 0, -1, tabs-2, 1  );
-    }
 
-   // -----------------------------------------------  touch head+copy
+	 if (retval==1) return retval;
+       }
+       
+     }
 
-   }  // right
+     }     
+
+     
+   //--------- touch head   
+
+
+
+   }  // right/left
    
 
 
@@ -1082,42 +1112,47 @@ void main4(){
   // i here  and now
   // i where and when
 
+  node_string->clear();
+ 
 
-  me.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 5); cout<<endl;
+  me.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 5); cout<<endl; node_string->clear();
 
-  space.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 5); cout<<endl;
+    ip.output_flag_clear(10);  ip.output(4,0); 
+  
+  space.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 5); cout<<endl; node_string->clear();
   //space.touch1         ( 100, 0, NULL, node_string, 0, -1, 3, 5); cout<<endl;
 
-  and1.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 5); cout<<endl;
-
-  ip.output_flag_clear(10);  ip.output(4,0);
+    ip.output_flag_clear(10);  ip.output(4,0);
     
-  time.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 7); cout<<endl;
-  //time.touch1         ( 100, 0, NULL, node_string, 0, -1, 3, 7); cout<<endl;
+  and1.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 5); cout<<endl; node_string->clear();
 
+  ip.output_flag_clear(10);  ip.output(4,0); 
+  
 
+  time.touch1         ( 100, 1, NULL, node_string, 0, -1, 3, 7); cout<<endl;   //node_string->clear();
 
   Node* b_e_t = node_string->back();
-
+node_string->clear();
   
   ip.output_flag_clear(10);  ip.output(4,0); 
 
 
+  
 
-      
-      
+
+        
      ip.clear_touches(10); cout<<" time interval occurs"<<endl<<endl;       // some time elapses
 
-     node_string->clear();
-     
-     b_e_t->touch1         ( 100, 1, NULL, node_string, 1, -1, 9, 5);
 
+     
+     b_e_t->touch1         ( 100, 1, NULL, node_string, 1, -1, 9, 5);      node_string->clear();
+ 
 
 }
 
 
 
-
+int
 main(){
 
   //main1();     // hiker rock duck sneeze   (stm) memory

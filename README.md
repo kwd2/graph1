@@ -8,10 +8,10 @@ Table of Contents
 
 * short term memory, (stm)  - - - - - - - create new (stm) nodes via merge()
 * (stm) sequence recall	- - - - - - - - - hiker rock duck sneeze
-* movement - - - - - - - - - - - - - - - - value based branching during (stm) sequence recall
+* movement - - - - - - - - - - - - - - - - branching on value during (stm) sequence recall, boys eat what?,  what boys eat?
 * a-n bifurcation- - - - - - - - - - - - - now I eat here daily
-* conjunction - - - - - - - - - - - - - - - closed loop hebbian binding
-* illicit grammar  - - - - - - - - - - - - - - - return false when building (stm)
+* conjunction - - - - - - - - - - - - - - - closed loop hebbian binding,  wallace and gromit
+* illicit grammar  - - - - - - - - - - - - - - - return false when building (stm),  wallace and *now
 * movement+conjunction - - - - - - - - - - - - - -  wallace and gromit I like?
 
 * long term memory  [ltm] - - - - - - - - - merge(h,c) -> merge(c,h)

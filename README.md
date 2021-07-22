@@ -8,10 +8,10 @@ Table of Contents
 
 * short term memory, (stm)  - - - - - - - create new (stm) nodes via merge()
 * (stm) sequence recall	- - - - - - - - - hiker rock duck sneeze
-* movement - - - - - - - - - - - - - - - - branching on value during (stm) sequence recall, boys eat what?,  what boys eat?
+* movement - - - - - - - - - - - - - - - - branching on value during (stm) sequence recall, boys eat what?;  what boys eat?
 * a-n bifurcation- - - - - - - - - - - - - now I eat here daily
-* conjunction - - - - - - - - - - - - - - - closed loop hebbian binding,  wallace and gromit
-* illicit grammar  - - - - - - - - - - - - - - - return false when building (stm),  wallace and *now
+* conjunction - - - - - - - - - - - - - - - closed loop hebbian binding:  wallace and gromit
+* illicit grammar  - - - - - - - - - - - - - - - return false when building (stm):  wallace and *now
 * movement+conjunction - - - - - - - - - - - - - -  wallace and gromit I like?
 
 * long term memory  [ltm] - - - - - - - - - merge(h,c) -> merge(c,h)
@@ -29,7 +29,7 @@ Table of Contents
 * plural            [noun] = +1  - - - - - - - - - - - - - -                 - plural “s” word ending
 
 
-* triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence - here I now eat daily
+* triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence, binding stm and generating prediction
 
 
 

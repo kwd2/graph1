@@ -11,7 +11,8 @@ Table of Contents
 * movement - - - - - - - - - - - - - - - - value based branching during (stm) sequence recall
 * a-n bifurcation- - - - - - - - - - - - - now I eat here daily
 * conjunction - - - - - - - - - - - - - - - closed loop hebbian binding
-* movement+conjunction
+* illicit grammar  - - - - - - - - - - - - - - - return false when building (stm)
+* movement+conjunction - - - - - - - - - - - - - -  wallace and gromit I like?
 
 * long term memory  [ltm] - - - - - - - - - merge(h,c) -> merge(c,h)
 
@@ -27,7 +28,6 @@ Table of Contents
 * singular        [noun] = -1   - - - - - - - - - - - - - -	     - number agreement
 * plural            [noun] = +1  - - - - - - - - - - - - - -                 - plural “s” word ending
 
-* stm overlay  mechanism    - - - - - - - - - - - - - -          - return false when building (stm)
 
 * triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence - here I now eat daily
 
@@ -147,6 +147,11 @@ input "I am here and now"
 ---------------------------------------------------------------------------------
 
 + illicit conjuntion combinations
++ illicit grammar  - - - - - - - - - - - - - - - return false when building (stm)
+
+executive function in main() breaks input if a FALSE is returned during input
+
+![Screenshot from 2021-07-22 10-35-21](https://user-images.githubusercontent.com/15908030/126666897-94211942-229b-48aa-9961-a4fdaaed0cf5.png)
 
 
 

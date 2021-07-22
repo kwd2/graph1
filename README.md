@@ -28,9 +28,13 @@ Table of Contents
 * plural            [noun] = +1  - - - - - - - - - - - - - -                 - plural “s” word ending
 
 * stm overlay  mechanism    - - - - - - - - - - - - - -          - return false when building (stm)
-* triggering stored sequences
+
+* triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence - here I now eat daily
+
+
+
 * analogies			     -  understand - recall and overlay entire [ltm] sequence 
-				                        on (stm) without a FALS
+				                        on (stm) without a FALSE
 * variables                                     - stm binding
 * adjective ordering
 * the / a / my / get 
@@ -200,7 +204,16 @@ input "I am here and now"
 
 * stm overlay  mechanism              - return false when building (stm)
 
-* triggering stored sequences
+----------------------------------------------------------------------------------
+* triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence - here I now eat daily
+
+bind (stm), in not already
+![Screenshot from 2021-07-22 09-35-01](https://user-images.githubusercontent.com/15908030/126657267-58827113-7854-4062-bbe4-f5717b37e62f.png)
+
+generate prediction/response
+
+![Screenshot from 2021-07-22 09-28-37](https://user-images.githubusercontent.com/15908030/126656810-e8763bba-b1b5-4498-81d3-433ed4a1d90b.png)
+
 ----------------------------------------------------------------------------------
 
 * analogies			     -  understand - recall and overlay entire [ltm] sequence 

@@ -16,8 +16,8 @@ Table of Contents
 
 * long term memory  [ltm] - - - - - - - - - merge(h,c) -> merge(c,h)
 
-* verbs    - - - - - - - - - - - - - -                               -  +1 (stm) loop
-* prepositions - - - - - - - - - - - - - -                           -  +2 (stm) loops
+* verbs    - - - - - - - - - - - - - -                               -  +1 (stm) loop caused by [vp] node
+* prepositions - - - - - - - - - - - - - -                           -  +2 (stm) loops caused by [p] node
 
 * past   tense  [vp] = -1  - - - - - - - - - - - - - -                      - value based branching on -1
 * future tense  [vp] = +1 - - - - - - - - - - - - - -                     - value based branching on +1

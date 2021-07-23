@@ -215,9 +215,15 @@ executive function in main() breaks input if a FALSE is returned during input
 bind (stm), in not already
 ![Screenshot from 2021-07-22 09-35-01](https://user-images.githubusercontent.com/15908030/126657267-58827113-7854-4062-bbe4-f5717b37e62f.png)
 
-generate prediction/response
+generate internal prediction/response
 
-![Screenshot from 2021-07-22 09-28-37](https://user-images.githubusercontent.com/15908030/126656810-e8763bba-b1b5-4498-81d3-433ed4a1d90b.png)
+![Screenshot from 2021-07-23 16-00-25](https://user-images.githubusercontent.com/15908030/126841087-9645def2-c31e-4dc2-a972-731627de2e8d.png)
+
+externalize
+
+![Screenshot from 2021-07-23 16-01-31](https://user-images.githubusercontent.com/15908030/126841172-b79d0993-3ee8-4077-ad58-af05e8fa001d.png)
+
+
 
 ----------------------------------------------------------------------------------
 

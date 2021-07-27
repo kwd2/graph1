@@ -214,7 +214,7 @@ executive function in main() breaks input if a FALSE is returned during input
 bind (stm), if not fully bound at input time
 ![Screenshot from 2021-07-22 09-35-01](https://user-images.githubusercontent.com/15908030/126657267-58827113-7854-4062-bbe4-f5717b37e62f.png)
 
-generate internal prediction/response
+generate internal prediction/response:  "I like"
 
 ![Screenshot from 2021-07-23 16-00-25](https://user-images.githubusercontent.com/15908030/126841087-9645def2-c31e-4dc2-a972-731627de2e8d.png)
 
@@ -232,9 +232,9 @@ ponder
 
 * adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
 
-* decisions
+* decisions - - - - - - - - - - - - - - - -  branching in (stm)
 
-* sleep
+* sleep - - - - - - - - - - - - - - - - - - create [ltm] sequences from stored (stm) sequences, clear (stm)
 
 
 

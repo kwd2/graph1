@@ -29,11 +29,13 @@ Table of Contents
 * plural            [noun] = +1  - - - - - - - - - - - - - -                 - plural “s” word ending
 
 
-* executive function - - - - - - - - - - - - -  the [a-nvp] sequence,  input, respond, ponder [respond] sleep
+* executive function - - - - - - - - - - - - -  the [a-nvp] sequence:  input, respond, ponder, [respond]
 
 * adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
 
 * decisions
+
+* sleep
 
 
 
@@ -41,7 +43,7 @@ Table of Contents
 the c++ file graph1.cpp contains a single class that implements the graph node.   The main() routine has the form:
 ![Screenshot from 2021-05-10 20-25-35](https://user-images.githubusercontent.com/15908030/117744407-3aa1e580-b1ce-11eb-956e-11e00a24038e.png)
 
-The Graph class is modified as the sequence of main1(), main2() ,main3(), ...  routines are added 
+The Graph class is modified (evolved) as the sequence of main1(), main2() ,main3(), ...  routines above are added 
 
 
 ----------------------------------------------------------------------------------
@@ -209,7 +211,7 @@ executive function in main() breaks input if a FALSE is returned during input
 ----------------------------------------------------------------------------------
 * triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence - here I now eat daily
 
-bind (stm), in not already
+bind (stm), if not fully bound at input time
 ![Screenshot from 2021-07-22 09-35-01](https://user-images.githubusercontent.com/15908030/126657267-58827113-7854-4062-bbe4-f5717b37e62f.png)
 
 generate internal prediction/response
@@ -218,17 +220,20 @@ generate internal prediction/response
 
 externalize
 
-![Screenshot from 2021-07-23 16-01-31](https://user-images.githubusercontent.com/15908030/126841172-b79d0993-3ee8-4077-ad58-af05e8fa001d.png)
+![Screenshot from 2021-07-27 08-08-19](https://user-images.githubusercontent.com/15908030/127158830-d818bb9a-53de-4851-a428-8509fc1bfd89.png)
+
 
 
 
 ----------------------------------------------------------------------------------
 
-* analogies			     -  understand - recall and overlay entire [ltm] sequence 
-				                        on (stm) without a FALSE
-* variables                                     - stm binding
-* adjective ordering
-* the / a / my / get 
+* executive function - - - - - - - - - - - - -  the [a-nvp] sequence:  input, respond, ponder, [respond]
+
+* adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
+
+* decisions
+
+* sleep
 
 
 

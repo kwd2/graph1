@@ -29,14 +29,14 @@ Table of Contents
 * plural            [noun] = +1  - - - - - - - - - - - - - -                 - plural “s” word ending
 
 
-* triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence, binding stm and generating prediction
+* executive function - - - - - - - - - - - - - - - - -   the [a-nvp] sequence,  input, respond, ponder [respond] sleep
 
+* adjective ordering
 
 
 * analogies			     -  understand - recall and overlay entire [ltm] sequence 
 				                        on (stm) without a FALSE
-* variables                                     - stm binding
-* adjective ordering
+
 * the / a / my / get 
 
 

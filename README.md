@@ -29,15 +29,12 @@ Table of Contents
 * plural            [noun] = +1  - - - - - - - - - - - - - -                 - plural “s” word ending
 
 
-* executive function - - - - - - - - - - - - - - - - -   the [a-nvp] sequence,  input, respond, ponder [respond] sleep
+* executive function - - - - - - - - - - - - -  the [a-nvp] sequence,  input, respond, ponder [respond] sleep
 
 * adjective ordering
 
+* decisions
 
-* analogies			     -  understand - recall and overlay entire [ltm] sequence 
-				                        on (stm) without a FALSE
-
-* the / a / my / get 
 
 
 ----------------------------------------------------------------------------------

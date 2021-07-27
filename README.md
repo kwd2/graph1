@@ -209,7 +209,7 @@ executive function in main() breaks input if a FALSE is returned during input
 * stm overlay  mechanism              - return false when building (stm)
 
 ----------------------------------------------------------------------------------
-* triggering [ltm] sequences - - - - - - - - - - - - - - - - -   the [a-n] sequence - here I now eat daily
+* executive function - - - - - - - - - - - - -  the [a-nvp] sequence:  input, respond, ponder, [respond]
 
 bind (stm), if not fully bound at input time
 ![Screenshot from 2021-07-22 09-35-01](https://user-images.githubusercontent.com/15908030/126657267-58827113-7854-4062-bbe4-f5717b37e62f.png)
@@ -218,16 +218,17 @@ generate internal prediction/response
 
 ![Screenshot from 2021-07-23 16-00-25](https://user-images.githubusercontent.com/15908030/126841087-9645def2-c31e-4dc2-a972-731627de2e8d.png)
 
-externalize
+externalize response
 
 ![Screenshot from 2021-07-27 08-08-19](https://user-images.githubusercontent.com/15908030/127158830-d818bb9a-53de-4851-a428-8509fc1bfd89.png)
 
+ponder
 
 
 
 ----------------------------------------------------------------------------------
 
-* executive function - - - - - - - - - - - - -  the [a-nvp] sequence:  input, respond, ponder, [respond]
+
 
 * adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
 

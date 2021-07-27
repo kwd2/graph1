@@ -31,7 +31,7 @@ Table of Contents
 
 * executive function - - - - - - - - - - - - -  the [a-nvp] sequence,  input, respond, ponder [respond] sleep
 
-* adjective ordering
+* adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
 
 * decisions
 

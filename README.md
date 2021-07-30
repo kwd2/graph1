@@ -233,8 +233,10 @@ ponder
 
 * adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
 
+----------------------------------------------------------------------------------
 * decisions - - - - - - - - - - - - - - - -  branching in (stm)
 
+----------------------------------------------------------------------------------
 * sleep - - - - - - - - - - - - - - - - - - create [ltm] sequences from stored (stm) sequences, clear (stm)
 
 ![Screenshot from 2021-07-30 06-51-21](https://user-images.githubusercontent.com/15908030/127649086-3e3641e8-85a4-41ff-8250-665331de0413.png)

@@ -35,7 +35,9 @@ Table of Contents
 
 * decisions
 
-* sleep
+* sleep - - - - - - - - - - - - - - - - - - - - - - use daily (stm) nodes to form [ltm] sequence memories 
+
+* [ltm] recall - - - - - - - - - - - - - - - - - - - recall [ltm] sequences based on current input
 
 
 

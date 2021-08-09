@@ -235,6 +235,9 @@ ponder
 
 * adjective ordering - - - - - - - - - - - - the big shiny thing,  the shiny  *big thing
 
+![Screenshot from 2021-08-09 09-59-58](https://user-images.githubusercontent.com/15908030/128727958-4daf0bb8-0878-4250-8284-09dfbb7b5ea6.png)
+
+
 ----------------------------------------------------------------------------------
 * decisions - - - - - - - - - - - - - - - -  branching in (stm)
 

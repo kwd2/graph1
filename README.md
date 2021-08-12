@@ -39,6 +39,9 @@ Table of Contents
 
 * [ltm] recall - - - - - - - - - - - - - - - - - - - recall [ltm] sequences based on current input
 
+* executive function - - - - - - - - - - - - - - - -  input-predict-[respond], ponder-[respond], sleep
+
+
 
 
 ----------------------------------------------------------------------------------

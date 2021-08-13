@@ -10,6 +10,7 @@ Table of Contents
 * (stm) sequence recall	- - - - - - - - - hiker rock duck sneeze
 * movement - - - - - - - - - - - - - - - - branching on value during (stm) sequence recall, boys eat what?;  what boys eat?
 * a-n bifurcation- - - - - - - - - - - - - now I eat here daily
+* compare function at merge time - - - - - HERE here 
 * conjunction - - - - - - - - - - - - - - - closed loop hebbian binding:  wallace and gromit
 * illicit grammar  - - - - - - - - - - - - - - - return false when building (stm):  wallace and *now
 * movement+conjunction - - - - - - - - - - - - - -  wallace and gromit I like?

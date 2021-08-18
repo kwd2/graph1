@@ -158,13 +158,23 @@ executive function in main() breaks input if a FALSE is returned during input
 
 ![Screenshot from 2021-07-22 10-35-21](https://user-images.githubusercontent.com/15908030/126666897-94211942-229b-48aa-9961-a4fdaaed0cf5.png)
 
-![Screenshot from 2021-08-18 09-49-29](https://user-images.githubusercontent.com/15908030/129920330-6ddf2f67-978e-4f15-a4a5-bf2eb431c147.png)
-![Screenshot from 2021-08-18 09-49-11](https://user-images.githubusercontent.com/15908030/129920332-ae9b133d-c794-440c-b425-387c01482901.png)
-![Screenshot from 2021-08-18 09-48-52](https://user-images.githubusercontent.com/15908030/129920334-49cfca27-af32-4037-8918-fe516a8a7b62.png)
-![Screenshot from 2021-08-18 09-48-34](https://user-images.githubusercontent.com/15908030/129920335-80d760e7-e5e2-47eb-ae84-9e7c2ad53291.png)
-![Screenshot from 2021-08-18 09-48-15](https://user-images.githubusercontent.com/15908030/129920336-7df44ab1-3e34-4718-ac30-04df19cc7078.png)
+"space"
 ![Screenshot from 2021-08-18 09-47-49](https://user-images.githubusercontent.com/15908030/129920338-f85d5770-2c6e-43ea-9201-343ebdf0e8b8.png)
 
+"space and"
+![Screenshot from 2021-08-18 09-48-15](https://user-images.githubusercontent.com/15908030/129920336-7df44ab1-3e34-4718-ac30-04df19cc7078.png)
+
+"space and time"
+![Screenshot from 2021-08-18 09-48-34](https://user-images.githubusercontent.com/15908030/129920335-80d760e7-e5e2-47eb-ae84-9e7c2ad53291.png)
+
+recall:
+![Screenshot from 2021-08-18 09-48-52](https://user-images.githubusercontent.com/15908030/129920334-49cfca27-af32-4037-8918-fe516a8a7b62.png)
+
+"space and *thing"   - FALSE is returned and stored in (stm)
+![Screenshot from 2021-08-18 09-49-11](https://user-images.githubusercontent.com/15908030/129920332-ae9b133d-c794-440c-b425-387c01482901.png)
+
+subsequent recall,  the stored FALSE values can prevent [ltm] memories from forming from the (stm) structure. 
+![Screenshot from 2021-08-18 09-49-29](https://user-images.githubusercontent.com/15908030/129920330-6ddf2f67-978e-4f15-a4a5-bf2eb431c147.png)
 
 
 ----------------------------------------------------------------------------------

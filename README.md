@@ -182,6 +182,20 @@ subsequent recall,  the stored FALSE values can prevent [ltm] memories from form
 
 ![Screenshot from 2021-05-12 09-39-30](https://user-images.githubusercontent.com/15908030/117994206-fca7dd00-b305-11eb-8f50-44108289bcee.png)
 
+input "thing space and time", ->  thing here and now -> the event is here and now -> 
+
+the event is where and when?  ->
+
+Where and when is the event?
+
+![Screenshot from 2021-08-23 08-55-19](https://user-images.githubusercontent.com/15908030/130460914-0232c921-4cf9-45ec-b86c-5dc5f51ccb2c.png)
+
+graph and output:
+
+![Screenshot from 2021-08-23 09-04-12](https://user-images.githubusercontent.com/15908030/130461142-8311985d-d667-4c57-9e92-6e61bd5f7588.png)
+
+
+
 
 
 ----------------------------------------------------------------------------------

@@ -190,11 +190,18 @@ Where and when is the event?
 
 ![Screenshot from 2021-08-23 08-55-19](https://user-images.githubusercontent.com/15908030/130460914-0232c921-4cf9-45ec-b86c-5dc5f51ccb2c.png)
 
-graph and output:
+graph and output: "thing space and time"
 
 ![Screenshot from 2021-08-23 09-04-12](https://user-images.githubusercontent.com/15908030/130461142-8311985d-d667-4c57-9e92-6e61bd5f7588.png)
 
 
+input "thing where and when?"
+
+![Screenshot from 2021-08-23 14-21-50](https://user-images.githubusercontent.com/15908030/130506350-602e60a3-29d9-4cc4-a8ec-b5c6d5c4f6a9.png)
+
+output: "where and when thing?"
+
+![Screenshot from 2021-08-23 14-25-23](https://user-images.githubusercontent.com/15908030/130507321-98c15873-43d5-43cf-b206-fbbe27141343.png)
 
 
 

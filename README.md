@@ -210,6 +210,11 @@ output: "where and when thing?"
 
 ![Screenshot from 2021-05-12 09-40-25](https://user-images.githubusercontent.com/15908030/117994374-1b0dd880-b306-11eb-9d11-a95151aafe8c.png)
 
+![Screenshot from 2021-08-25 19-26-31](https://user-images.githubusercontent.com/15908030/130881243-d452f1f9-6854-42b6-8b53-b3bd5eb19e54.png)
+
+
+
+
 
 ----------------------------------------------------------------------------------
 * verbs                                   -  +1 (stm) loop

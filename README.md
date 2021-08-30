@@ -212,7 +212,13 @@ output: "where and when thing?"
 
 ![Screenshot from 2021-08-25 19-26-31](https://user-images.githubusercontent.com/15908030/130881243-d452f1f9-6854-42b6-8b53-b3bd5eb19e54.png)
 
+clear_touches() simulates time interval
 
+dreaming mode allows previous stm memory structre to duplicate itself and regenerate stm links
+
+[ltm] memory structures can be built using stored (stm) pattern
+
+![Screenshot from 2021-08-29 19-42-10](https://user-images.githubusercontent.com/15908030/131271066-10b9f3cc-7ed4-412b-a7da-785e3796b040.png)
 
 
 

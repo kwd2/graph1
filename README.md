@@ -218,8 +218,9 @@ dreaming mode allows previous stm memory structre to duplicate itself and regene
 
 [ltm] memory structures can be built using stored (stm) pattern
 
-![Screenshot from 2021-08-29 19-42-10](https://user-images.githubusercontent.com/15908030/131271066-10b9f3cc-7ed4-412b-a7da-785e3796b040.png)
 
+
+![Screenshot from 2021-08-30 14-31-45](https://user-images.githubusercontent.com/15908030/131395030-e95279d9-b7eb-49aa-80e7-ca65626bb1ee.png)
 
 
 ----------------------------------------------------------------------------------

@@ -12,7 +12,7 @@ Table of Contents
 * a-n bifurcation- - - - - - - - - - - - - now I eat here daily
 * compare function at merge time - - - - - HERE here 
 * conjunction - - - - - - - - - - - - - - - closed loop hebbian binding:  wallace and gromit
-* illicit grammar  - - - - - - - - - - - - - - - return false when building (stm):  wallace and *now
+* illicit conjunctions  - - - - - - - - - - - - - - - return false when building (stm):  wallace and *now
 * movement+conjunction - - - - - - - - - - - - - -  wallace and gromit I like?
 
 * long term memory  [ltm] - - - - - - - - - merge(h,c) -> merge(c,h)

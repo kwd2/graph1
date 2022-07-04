@@ -1,0 +1,204 @@
+// pseudocode for the touch function
+
+
+int
+Node::touch1( int            input,
+	      float          touch_value,
+	      Node*          touched_by,
+	      list<Node*>*   node_string,
+	      int            unused,           // Hebb mode during input
+	      int            direction,
+	      int            tabs,
+	      int            depth )
+
+
+----------------------------------------------------------
+    if ( unused == 1){   //hebb mode
+
+       loop over node_string {
+
+         if (this_node on node_string) return 2;    // closed loop hebbian binding 
+       }
+    }
+
+
+   input_value += input
+
+   if ( input_value < threshold) return 0;     // node does not fire, return
+
+   // node fires
+
+   ret_val = 1;
+
+   node_string->push_back(this);
+----------------------------------------------------------
+
+
+  // ----- output
+
+  cout<< ...
+
+  // ----- output
+
+
+----------------------------------------------------------
+  // ----- merge
+  // ----- merge
+
+
+  if (direction = left && hebb mode = off) {
+
+     (a) = merge(this, touched_by );     // create (stm) node between this node and
+                                         // and the node that touched it.
+
+
+     IP - (a)
+     |
+     |---- a
+
+
+    // touch and fire the new (stm) node
+
+     ret_val = (a) -> touch(hebb=0, direction = right/1)
+
+
+  }
+
+
+
+
+  if direction = right {
+
+
+
+     IP - (a)  (aa)
+     |    (a)
+     |
+     |---- a
+
+
+     // branch left into hebb mode
+     {
+
+      // this = (aa)
+
+      ret_val = (aa)  -> head -> touch(hebb=1, direction = 0)
+             
+
+       if (conjunction_flag  && ret_val = 2)  head.weight *= 2;    //stm enhanced binding during input 
+     }
+
+
+
+    
+     IP - (a1)    (a12)  
+     |    (a2)
+     |
+     |---- a
+
+
+    //--------- (stm) merge with previous (stm)
+    {
+
+     (a12) = merge( (a1), (a2) )
+
+     ret_val = (a12)  -> head -> touch(hebb=0, direction = 1/right )
+
+     if (conjunction_flag  && ret_val = 2)  head.weight *= 2;    //stm enhanced binding during input 
+
+    }
+    //--------- (stm) merge with previous (stm)
+    
+
+
+     if dreaming {
+
+
+     	IP - (a1)    (a12)  
+     	|    (a2)
+     	|
+     	|
+     	|---- a ---- [a] ---- [a12]
+     
+
+
+	[a12] = merge( [a], [a] )
+
+    	//ret_val = [a12]  -> head -> touch(hebb=0, direction = 1/right )
+
+     	//if (conjunction_flag  && ret_val = 2)  head.weight *= 2;    //stm enhanced binding during input 
+
+     }
+
+
+
+
+   // -----  touch [ltm] node if it exists
+
+   loop branches {
+
+       if (b->symbol(0) = "[" ) {
+
+       ret_val = b->touch( hebb=0, direction = right)
+
+       break
+       }
+    }
+    
+   // -------  touch [ltm] node if it exists
+
+
+
+   }  // direction = right
+
+
+   // ----- merge
+   // ----- merge
+----------------------------------------------------------
+
+
+
+  if direction = left {
+
+     IP - (a)  (aa)
+     |    (a)
+     |
+     |---- a
+
+
+   if (value = 0) touch copy            //movement
+
+   touch head
+
+   touch copy
+
+
+   }
+
+
+
+
+   if direction = 0 {    // hebb mode
+
+
+   rv = head.touch( )
+
+   if (rv !=0 ) return rv
+
+
+   rv = copy.touch( )
+
+   if (rv !=0 ) return rv
+
+
+   loop branches {	
+
+      rv = branch->touch( )
+
+      if (rv !=0 ) return rv
+
+   }
+
+
+
+   }

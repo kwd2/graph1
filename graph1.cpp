@@ -35,7 +35,7 @@ public:
 
   Node*                      last_ltm;           // last ltm node that fired under this node
 
-  Node*                      ltm_node;           // ltm node for (stm) nodes
+  Node*                      ltm_node;           // link to ltm node for (stm) nodes
 
   
         pair<Node*, int>     head;               // links <Node*, int weight>
@@ -2105,7 +2105,7 @@ void main5(){
     cout<<"clear (stm), return="<<ip.clear_stm(5)<<endl;; 
     cout<<"clear (stm), return="<<ip.clear_stm(5)<<endl;; 
     cout<<"clear (stm), return="<<ip.clear_stm(5)<<endl;; 
-   cout<<"clear (stm), return="<<ip.clear_stm(5)<<endl;; 
+    cout<<"clear (stm), return="<<ip.clear_stm(5)<<endl;; 
      
     cout<<endl; ip.output_flag_clear(10);   ip.output(5,0);    //  output the ip graph
 
